@@ -1,0 +1,84 @@
+﻿@model IEnumerable<UserData>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table" id="userDataTable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Index)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RandomIdentifier)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MiddleName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Count() > 0)
+        {
+            foreach (var item in Model) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Index)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RandomIdentifier)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MiddleName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LastName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Address)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Phone)
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+<script>
+    $(document).ready(function () {
+        $('#userDataTable').on('scroll', function () {
+            if ($(this).scrollTop() + $(this).height() >= $(this)[0].scrollHeight) {
+                var pageNumber = parseInt($(this).attr('data-page-number')) + 1;
+                var region = $('#region').val();
+                var errorsPerRecord = $('#errorsPerRecord').val();
+                var seed = $('#seed').val();
+
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("GenerateUserData")',
+                    data: { region: region, errorsPerRecord: errorsPerRecord, seed: seed, pageNumber: pageNumber },
+                    success: function (data) {
+                        $('#userDataTableContainer').html(data);
+                    }
+                });
+            }
+        });
+    });
+</script>

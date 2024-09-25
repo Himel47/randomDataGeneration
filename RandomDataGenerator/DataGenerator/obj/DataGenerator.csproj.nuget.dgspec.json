@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ShahriarKabir47\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\DataGenerator.csproj": {}
+    "C:\\Users\\Himel\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\DataGenerator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ShahriarKabir47\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\DataGenerator.csproj": {
+    "C:\\Users\\Himel\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\DataGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ShahriarKabir47\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\DataGenerator.csproj",
+        "projectUniqueName": "C:\\Users\\Himel\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\DataGenerator.csproj",
         "projectName": "DataGenerator",
-        "projectPath": "C:\\Users\\ShahriarKabir47\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\DataGenerator.csproj",
-        "packagesPath": "C:\\Users\\ShahriarKabir47\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ShahriarKabir47\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\obj\\",
+        "projectPath": "C:\\Users\\Himel\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\DataGenerator.csproj",
+        "packagesPath": "C:\\Users\\Himel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Himel\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ShahriarKabir47\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Himel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,6 +49,10 @@
             "CsvHelper": {
               "target": "Package",
               "version": "[33.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.5, )"
             }
           },
           "imports": [
@@ -70,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

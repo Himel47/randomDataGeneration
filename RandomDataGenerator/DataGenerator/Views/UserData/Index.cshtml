@@ -1,0 +1,68 @@
+﻿@{
+    ViewBag.Title = "User Data Generator";
+}
+
+<h2>User Data Generator</h2>
+
+<form id="userDataForm">
+    <div>
+        <label for="region">Region:</label>
+        <select id="region" name="region">
+            @foreach (var region in Enum.GetValues(typeof(ERegion)))
+            {
+                <option value="@region">@region</option>
+            }
+        </select>
+    </div>
+
+    <div>
+        <label for="errorsPerRecord">Errors per record:</label>
+        <input type="number" id="errorsPerRecord" name="errorsPerRecord" value="0" min="0" max="1000" />
+        <input type="range" id="errorsPerRecordSlider" name="errorsPerRecordSlider" value="0" min="0" max="10" />
+    </div>
+
+    <div>
+        <label for="seed">Seed:</label>
+        <input type="number" id="seed" name="seed" value="0" />
+        <button id="randomSeedButton">Random Seed</button>
+    </div>
+
+    <button id="generateButton">Generate User Data</button>
+
+    <div id="userDataTableContainer">
+        @Html.Partial("_UserDataTable")
+    </div>
+</form>
+
+<script>
+    $(document).ready(function () {
+        $('#generateButton').click(function () {
+            var region = $('#region').val();
+            var errorsPerRecord = $('#errorsPerRecord').val();
+            var seed = $('#seed').val();
+            var pageNumber = 1;
+
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("GenerateUserData")',
+                data: { region: region, errorsPerRecord: errorsPerRecord, seed: seed, pageNumber: pageNumber },
+                success: function (data) {
+                    $('#userDataTableContainer').html(data);
+                }
+            });
+        });
+
+        $('#randomSeedButton').click(function () {
+            var seed = Math.floor(Math.random() * 1000);
+            $('#seed').val(seed);
+        });
+
+        $('#errorsPerRecordSlider').on('input', function () {
+            $('#errorsPerRecord').val($(this).val());
+        });
+
+        $('#errorsPerRecord').on('input', function () {
+            $('#errorsPerRecordSlider').val($(this).val());
+        });
+    });
+</script>
