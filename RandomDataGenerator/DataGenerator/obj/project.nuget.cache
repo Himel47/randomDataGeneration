@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NUsl3Milqjw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ShahriarKabir47\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\DataGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ShahriarKabir47\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
