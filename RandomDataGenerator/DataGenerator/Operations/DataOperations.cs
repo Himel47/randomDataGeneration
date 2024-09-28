@@ -22,7 +22,7 @@ namespace DataGenerator.Operations
             {
                 var userData = new UserData
                 {
-                    Index = (pageNumber - 1) * pageSize + i + 1,
+                    //Index = (pageNumber - 1) * pageSize + i + 1,
                     RandomIdentifier = GenerateRandomIdentifier(),
                     Name = GenerateName(_region),
                     MiddleName = GenerateMiddleName(_region),

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Himel\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|c:\\users\\himel\\documents\\github\\randomdatageneration\\randomdatagenerator\\datagenerator\\views\\userdata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|solutionrelative:datagenerator\\views\\userdata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|c:\\users\\himel\\documents\\github\\randomdatageneration\\randomdatagenerator\\datagenerator\\models\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|solutionrelative:datagenerator\\models\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|c:\\users\\himel\\documents\\github\\randomdatageneration\\randomdatagenerator\\datagenerator\\controllers\\userdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|solutionrelative:datagenerator\\controllers\\userdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|c:\\users\\himel\\documents\\github\\randomdatageneration\\randomdatagenerator\\datagenerator\\datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|solutionrelative:datagenerator\\datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|c:\\users\\himel\\documents\\github\\randomdatageneration\\randomdatagenerator\\datagenerator\\operations\\dataoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|solutionrelative:datagenerator\\operations\\dataoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|c:\\users\\himel\\documents\\github\\randomdatageneration\\randomdatagenerator\\datagenerator\\views\\userdata\\_userdatatable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,12 +23,16 @@
       "RelativeMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|solutionrelative:datagenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|c:\\users\\himel\\documents\\github\\randomdatageneration\\randomdatagenerator\\datagenerator\\operations\\csvformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|solutionrelative:datagenerator\\operations\\csvformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|c:\\users\\himel\\documents\\github\\randomdatageneration\\randomdatagenerator\\datagenerator\\controllers\\userdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|solutionrelative:datagenerator\\controllers\\userdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|c:\\users\\himel\\documents\\github\\randomdatageneration\\randomdatagenerator\\datagenerator\\operations\\dataoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|solutionrelative:datagenerator\\operations\\dataoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|c:\\users\\himel\\documents\\github\\randomdatageneration\\randomdatagenerator\\datagenerator\\views\\userdata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|solutionrelative:datagenerator\\views\\userdata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|c:\\users\\himel\\documents\\github\\randomdatageneration\\randomdatagenerator\\datagenerator\\operations\\csvformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52519BD3-7D42-4D97-871A-8FA487BC58F0}|DataGenerator\\DataGenerator.csproj|solutionrelative:datagenerator\\operations\\csvformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Himel\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\DataContext\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DataGenerator\\DataContext\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Himel\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\DataContext\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DataGenerator\\DataContext\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T16:13:20.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\Users\\Himel\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\Models\\UserData.cs",
+              "RelativeDocumentMoniker": "DataGenerator\\Models\\UserData.cs",
+              "ToolTip": "C:\\Users\\Himel\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\Models\\UserData.cs",
+              "RelativeToolTip": "DataGenerator\\Models\\UserData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T16:12:15.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CsvFormatter.cs",
               "DocumentMoniker": "C:\\Users\\Himel\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\Operations\\CsvFormatter.cs",
               "RelativeDocumentMoniker": "DataGenerator\\Operations\\CsvFormatter.cs",
@@ -51,20 +85,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "DataOperations.cs",
               "DocumentMoniker": "C:\\Users\\Himel\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\Operations\\DataOperations.cs",
               "RelativeDocumentMoniker": "DataGenerator\\Operations\\DataOperations.cs",
               "ToolTip": "C:\\Users\\Himel\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\Operations\\DataOperations.cs",
               "RelativeToolTip": "DataGenerator\\Operations\\DataOperations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T11:07:19.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Himel\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\Program.cs",
               "RelativeDocumentMoniker": "DataGenerator\\Program.cs",
@@ -77,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_UserDataTable.cshtml",
               "DocumentMoniker": "C:\\Users\\Himel\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\Views\\UserData\\_UserDataTable.cshtml",
               "RelativeDocumentMoniker": "DataGenerator\\Views\\UserData\\_UserDataTable.cshtml",
@@ -90,26 +124,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Himel\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\Views\\UserData\\Index.cshtml",
               "RelativeDocumentMoniker": "DataGenerator\\Views\\UserData\\Index.cshtml",
               "ToolTip": "C:\\Users\\Himel\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\Views\\UserData\\Index.cshtml",
               "RelativeToolTip": "DataGenerator\\Views\\UserData\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-25T09:29:52.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "UserDataController.cs",
               "DocumentMoniker": "C:\\Users\\Himel\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\Controllers\\UserDataController.cs",
               "RelativeDocumentMoniker": "DataGenerator\\Controllers\\UserDataController.cs",
               "ToolTip": "C:\\Users\\Himel\\Documents\\GitHub\\randomDataGeneration\\RandomDataGenerator\\DataGenerator\\Controllers\\UserDataController.cs",
               "RelativeToolTip": "DataGenerator\\Controllers\\UserDataController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T06:57:31.182Z",
               "EditorCaption": ""

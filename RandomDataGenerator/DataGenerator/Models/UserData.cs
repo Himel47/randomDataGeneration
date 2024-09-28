@@ -2,7 +2,7 @@
 {
     public class UserData
     {
-        public int Index { get; set; }
+        public Guid Index { get; set; }
         public string RandomIdentifier { get; set; }
         public string Name { get; set; }
         public string MiddleName { get; set; }
